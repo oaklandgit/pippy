@@ -1,8 +1,4 @@
-# The House of Ill Compute
-My adventures in computing which may or may not be useful to someone.
-
-
-## USB Gadget Mode - July 3, 2025
+## July 3, 2025 - USB Gadget Mode
 
 ### Goal
 Using an iPad as a portable display for a Raspberry Pi (Zero W in my case) that can provide power and can "see" the Pi via SSH and VNC. So far, I've managed to get it working with a Mac -> Pi. Will update when (if?) I get to the real goal of connecting an iPad.
