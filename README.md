@@ -42,5 +42,6 @@ You should be able to connect the same way you would over the network. Mac's Bon
 ```
 ssh mypiuser@mypihost.local
 ```
+(Turn off your Mac's wifi to prove it works).
 
 My next steps is to get this working on the iPad.
