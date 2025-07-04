@@ -6,7 +6,7 @@
 Using an iPad as a portable display for a Raspberry Pi (Zero W in my case) that can provide power and can "see" the Pi via SSH and VNC. So far, I've managed to get it working with a Mac -> Pi. Will update when (if?) I get to the real goal of connecting an iPad.
 
 ### The physical connection
-Mac's USB C -> Pi's USB Micro. Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage.
+Mac's USB C -> Pi's USB Micro. Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage. NOTE: In the photo, you may notice a PiSugar batter pack. That's not necessary for this to work, as the Pi will receive its power from this connection. For my project, the portability will remain either way, since the presence of the iPad is necessary. However, the battery may be useful but that's another discussion.
 
 ### On the Raspberry Pi Zero W
 
