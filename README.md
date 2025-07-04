@@ -1,5 +1,7 @@
 ## July 3, 2025 - USB Gadget Mode
 
+![A12EB628-EBE5-44D2-84C9-B6D3E6645E56_1_102_o](https://github.com/user-attachments/assets/0fe63425-5cce-4ba3-9cff-e3d9bc87aac9)
+
 ### Goal
 Using an iPad as a portable display for a Raspberry Pi (Zero W in my case) that can provide power and can "see" the Pi via SSH and VNC. So far, I've managed to get it working with a Mac -> Pi. Will update when (if?) I get to the real goal of connecting an iPad.
 
@@ -45,3 +47,9 @@ ssh mypiuser@mypihost.local
 (Turn off your Mac's wifi to prove it works).
 
 My next steps is to get this working on the iPad.
+
+## July 4 🇺🇸, 2025 - Connecting to iPad
+Works but some notes.
+1. This is where a small USB hub becomes necessary: Keyboard and Pi Zero -> Hub -> iPad USB C.
+2. You'll find the RNDIS/Ethernet gadget connection under Settings -> Ethernet. There, they work the same as on a Mac. Set the Manual IP and Subnet Mask.
+3. The Accessibility setting in Accessibility -> Keyboards & Typing -> Full Keyboard Access should be turned OFF. With it on, many of the iPad's special keyboard shortcuts for operating the iPad interfere with the SSH Client (Blink app).
