@@ -60,6 +60,11 @@ ssh mypiuser@mypihost.local
 ```
 To make sure it's working, do this with your Mac or iPad's wifi disabled.
 
+## Changing WIFI networks
+To recap, the whole point of this was to be able to connect an iPad to a Pi Zero with a single USB cable even without them both being on a shared network. That said, you likely DO want the Pi to have Internet access and, as mentioned, the iPad won't share it's connection because Tim Cook said so. We prepared for this by setting up `wlan0` in step 3, but how do we provide our credentials for new WIFI locations? Pretty simple:
 
-
+```sh
+sudo raspi-config
+```
+![CleanShot 2025-07-05 at 06 12 37](https://github.com/user-attachments/assets/89d7454d-fa0d-4386-8845-e091721da62b)
 
