@@ -54,11 +54,10 @@ interface wlan0
 3. On the iPad, `Accessibility → Keyboards & Typing → Full Keyboard Access` should be turned OFF. With it on, many of the iPad's special keyboard shortcuts for operating the iPad interfere with the SSH Client (Blink app).
 
 ### STEP 4: Give it a whirl!
-You should be able to connect the same way you would over the network, using the machine's host name, as opposed to the IP address.
+You should be able to connect the same way you would over the network, using the machine's host name, as opposed to the IP address. Of course, use the username and hostname of your Pi.
 ```sh
-ssh mypiuser@mypihost.local
+ssh laz@pippy.local
 ```
-To make sure it's working, do this with your Mac or iPad's wifi disabled.
 
 ## Changing WIFI networks
 To recap, the whole point of this was to be able to connect an iPad to a Pi Zero with a single USB cable even without them both being on a shared network. That said, you likely DO want the Pi to have Internet access and, as mentioned, the iPad won't share it's connection because Tim Cook said so. We prepared for this by setting up `wlan0` in step 3, but how do we provide our credentials for new WIFI locations? Pretty simple:
