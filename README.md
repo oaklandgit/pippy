@@ -28,7 +28,7 @@ Using SSH and VNC to interact with a Pi over the network is trival, and there ar
 ### Serial UART Connectivity
 Which brings me to the option of serial communications. Could I connect from the iPad's USB C to the Pi using good, old-fashioned TX and RX? Between a Mac and Pi yes. You need USB to Serial adapter (ie one with an FTDI chip) and some simple wiring to the Pi's GPIO pins. But when you swap in an iPad for the Mac, you're suddenly faced with the frustrating truth: being a closed system, the only devices and software I could find to make that connection are proprietary and expensive (and often recurring, subscription-based at that!) No thanks. Regardless, even if it were free, Serial has limitations of its own. It's a slow way to send data back and forth. Remember, these 2 devices are meant to act as one. Being *physically connected* yet still slower than Over-the-Network connectivity seemed like a step backwards.
 
-## Enter, "USB Gadget Mode"
+## Enter "USB Gadget Mode!"
 This solution not only works for my use case, it brings with it benefits that align perfectly that -- once you figure out *how* -- does not feel at all like a hack. It's both elegant and aligned with the task.
 
 Basically, USB Gadget mode turns a USB connection into a direct ethernet connection between the devices. While ethernet is itself a "networking" technology, it is fast enough to be considered a bridge for local computing. When you keep in mind that a cluster of Raspberry Pis are often wired together via Ethernet as a single big brain, you realize this. And one incredibly convenient benefit is that this connection can share both data and power, which speaks to my original goal: using my iPad as a display AND power source for the Pi.
@@ -54,7 +54,7 @@ console=serial0,115200 console=tty1 root=PARTUUID=71603c9d-02 rootfstype=ext4 fs
 ### STEP 3: Configure networking on the Pi 
 **Here's the part that I haven't found well documented elsewhere.**
 
-I had two problems at this point. 1) The Pi would not cooperate with dynamic IP addresses and 2) The Pi could only handle one type of connection at a time, which means it couldn't access the Internet which connected to the iPad. Sort of a a dealbreaker.
+I had two problems at this point. 1) The Pi would not cooperate with dynamic IP addresses and 2) The Pi could only handle one type of connection at a time, which means it couldn't access the Internet while simultaneously connected to the iPad. Sort of a a dealbreaker.
 
 The solution is to set up the Pi with a static IP address for the USB mode, and two interfaces: "usb0" for allowing the iPad to connect to it and "wlan0" for giving itself access to the Interwebs.
 
