@@ -1,6 +1,7 @@
 # Setting up a direct connection between a Pi Zero W and a Mac or iPad
 
-![A12EB628-EBE5-44D2-84C9-B6D3E6645E56_1_102_o](https://github.com/user-attachments/assets/0fe63425-5cce-4ba3-9cff-e3d9bc87aac9)
+![IMG_5345](https://github.com/user-attachments/assets/cc9c53af-c0c0-4e9b-b7e8-bcbc421aea37)
+
 
 ## Goal
 Using an iPad as a portable display for a Raspberry Pi (Zero W in my case) that can provide power and can directly communicate with the Pi via SSH and VNC, even without network access on either device.
@@ -8,7 +9,7 @@ Using an iPad as a portable display for a Raspberry Pi (Zero W in my case) that 
 ### STEP 1: Make the physical connection
 Connect the Mac or iPad's USB C port to the Pi's Micro USB Data/Power port. IMPORTANT: Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage.
 
-**NOTE:** An additional Power source is not required! In the photo, you may notice a PiSugar batter pack. That's not necessary for this to work, as the Pi will receive its power from the Gadget Mode connection. For my project, the portability will remain either way, since the presence of the iPad is necessary. However, the battery may be useful but that's another discussion.
+**NOTE:** An additional Power source is not required! The Pi will receive its power from the Gadget Mode connection.
 
 ### STEP 2: Configure the Pi for "USB Gadget Mode"
 Add the following to the `[all]` section of `/boot/config.txt`
