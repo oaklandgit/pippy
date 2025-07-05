@@ -26,15 +26,23 @@ Add `modules-load=dwc2,g_ether` after `rootwait` in `/boot/cmdline.txt`. **Make 
 console=serial0,115200 console=tty1 root=PARTUUID=71603c9d-02 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_ether quiet splash plymouth.ignore-serial-consoles cfg80211.ieee80211_regdom=US
 ```
 
-**Here's the part that's not well documented elsewhere.** The Mac and the Pi would not cooperate with dynamic IP addresses. So on the PI:
+**Here's the part that's not well documented elsewhere.**
 
-Add this to the end of `/etc/dhcpcd.conf`
+Without further configuration, there are two problems at this point. 1) The Pi would not cooperate with dynamic IP addresses and 2) The Pi could only handle one type of connection at a time, which means it couldn't access the Internet which connected to the iPad. Sort of a a dealbreaker.
+
+The solution is to set up the Pi with a static IP address for the USB mode, and two interfaces: "usb0" for allowing the iPad to connect to it and "wlan0" for giving itself access to the Interwebs.
+
+To do this, add this to the end of `/etc/dhcpcd.conf`
 
 ```sh
 interface usb0
-static ip_address=192.168.2.2/24
-static routers=192.168.2.1
-static domain_name_servers=192.168.2.1 8.8.8.8
+    static ip_address=192.168.2.2/24
+    static routers=192.168.2.1
+    static domain_name_servers=192.168.2.1 8.8.8.8
+    metric 300
+
+interface wlan0
+    metric 100
 ```
 
 ### Connecting from a Mac
