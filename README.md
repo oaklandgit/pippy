@@ -12,7 +12,7 @@ But it occured to me that I already have a device with a display an battery that
 
 My iPad Air not only has a nice, bright screen and long-lasting battery, I can use it to draw my web comic ([B-Lab](https://blabcomic.com), watch YouTube, browse the web and  access my Apple ecosystem.
 
-What my iPad sorely lacks, however, is the ability to do any modicum of coding (for my professional work as a user experience designer and software developer) and tinkering with the system itself (part and parcel for what it means to do computing IMHO). Despite all the processing power of its iPad lineup, Apple still refuses to endow it with the capabilities of an openly-accessible system like MacOS. While recently-announced updates that give iPadOS a more Mac-like windowing experience, it's not sufficient for coders and tinkerers like myself.
+What my iPad sorely lacks, however, is the ability to do any modicum of coding (for my professional work as a user experience designer and software developer) and tinkering with the system itself (part and parcel for what it means to do computing IMHO). Despite all the processing power of its iPad lineup, Apple still refuses to endow it with the capabilities of an openly-accessible system like MacOS. Despite recently-announced updates that give iPadOS a more Mac-like windowing experience, it's not sufficient for coders and tinkerers like myself.
 
 Could I have it do double duty as the display and power for my Pi? If so, I would get all the iPad-y things from the iPad AND the tinkery, developery things of Linux.
 
