@@ -14,16 +14,16 @@ My iPad Air not only has a nice, bright screen and long-lasting battery, I can u
 
 What my iPad sorely lacks, however, is the ability to do any modicum of coding (for my professional work as a user experience designer and software developer) and tinkering with the system itself (part and parcel for what it means to do computing IMHO). Despite all the processing power of its iPad lineup, Apple still refuses to endow it with the capabilities of an openly-accessible system like MacOS. Despite recently-announced updates that give iPadOS a more Mac-like windowing experience, it's not sufficient for coders and tinkerers like myself.
 
-Could I have it do double duty as the display and power for my Pi? If so, I would get all the iPad-y things from the iPad AND the tinkery, developery things of Linux.
+But pairing an iPd with a Raspberry Pi, I could leverage each's strengths: all the benefits of iPad things while providing power and a great display power for my Pi, so that *it* can handle the Linuxy things.
 
-Spoiler: yes. But figuring out precicely how sent me down a rabbit hole of false starts, dead ends. And while it was surprisingly tricky to figure out how to actually pull it off, once I learned it is elegant and easy.
+But figuring out precicely how sent me down a rabbit hole of false starts, dead ends. And while it was surprisingly tricky to figure out how to actually pull it off, once I learned it is actually quite elegant and easy.
 
-So I'll share that with you.
+So I'll share that with you. But first, let's look at…
 
-## False Starts
+## What Didn't Work
 
 ### Over-the-Network Connectivity
-Using SSH and VNC to interact with a Pi over the network is trival, and there are plenty of tutorials to show you the ropes. Basically, both the iPad and Pi join th esame network, and the Pi is configured to open its SSH and/or VNC to be accessed by a guest device. It works fine, but has one fatal flaw for my use case: It's not a good choice for use on a *portable, and integrated* device because it relies on that shared network connection which 1) may not always be available and 2) must be configured on each device to join a new network and 3) firewalls and the like. Also, it seems like overkill to leverage a *remote-connection* technology by two devices that are literally attached to one another!
+Using SSH and VNC to interact with a Pi over the network is trival, and there are plenty of tutorials to show you the ropes. Basically, both the iPad and Pi join the same network, and the Pi is configured to open its SSH and/or VNC to be accessed by a guest device. It works fine, but has one fatal flaw for my use case: It's not a good choice for use on a *portable, and integrated* device because it relies on that shared network connection which 1) may not always be available and 2) must be configured on each device to join a new network and 3) firewalls and the like. Also, it seems like overkill to leverage a *remote-connection* technology by two devices that are literally attached to one another!
 
 ### Serial UART Connectivity
 Which brings me to the option of serial communications. Could I connect from the iPad's USB C to the Pi using good, old-fashioned TX and RX? Between a Mac and Pi yes. You need USB to Serial adapter (ie one with an FTDI chip) and some simple wiring to the Pi's GPIO pins. But when you swap in an iPad for the Mac, you're suddenly faced with the frustrating truth: being a closed system, the only devices and software I could find to make that connection are proprietary and expensive (and often recurring, subscription-based at that!) No thanks. Regardless, even if it were free, Serial has limitations of its own. It's a slow way to send data back and forth. Remember, these 2 devices are meant to act as one. Being *physically connected* yet still slower than Over-the-Network connectivity seemed like a step backwards.
@@ -36,9 +36,7 @@ Basically, USB Gadget mode turns a USB connection into a direct ethernet connect
 ## Here's how to do it:
 
 ### STEP 1: Make the physical connection
-Connect the Mac or iPad's USB C port to the Pi's Micro USB Data/Power port. IMPORTANT: Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage.
-
-**NOTE:** An additional Power source is not required! The Pi will receive its power from the Gadget Mode connection.
+Connect the Mac or iPad's USB C port to the Pi's Micro USB Data/Power port. IMPORTANT: Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage. **An additional Power source is not required!** The Pi will receive its power from the Gadget Mode connection.
 
 ### STEP 2: Configure the Pi for Gadget Mode
 Add the following to the `[all]` section of `/boot/config.txt`
