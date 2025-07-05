@@ -75,12 +75,12 @@ interface wlan0
 Even though a Mac-to-Pi connection was not my intended goal, I found it helpful to do first since there are fewer gotchas.
 
 ![mac-interface](https://github.com/user-attachments/assets/799bfada-4074-401c-9f54-89f6f92c17b5)
-1. Find the "RNDIS/Ethernet Gadget" interface in system preferences > Network
-2. Manually configure IP to 192.168.2.1, subnet mask to 255.255.255.0
+1. Find the "RNDIS/Ethernet Gadget" interface in `System Preferences → Network`
+2. Manually configure IP to `192.168.2.1`, subnet mask to `255.255.255.0`
 
 ### STEP 3B: Connecting from an iPad
 1. Since the iPad only has a single USB C port, this is where a small USB hub becomes necessary: Keyboard and Pi Zero → Hub → iPad USB C.
-2. You'll find the RNDIS/Ethernet gadget connection under Settings → Ethernet. There, they work the same as on a Mac. Set the Manual IP and Subnet Mask.
+2. You'll find the RNDIS/Ethernet gadget connection under `Settings → Ethernet`. There, they work the same as on a Mac. Set the Manual IP and Subnet Mask.
 3. On the iPad, `Accessibility → Keyboards & Typing → Full Keyboard Access` should be turned OFF. With it on, many of the iPad's special keyboard shortcuts for operating the iPad interfere with the SSH Client (Blink app).
 
 ### STEP 4: Give it a whirl!
