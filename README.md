@@ -18,9 +18,9 @@ My iPad Air not only has a nice, bright screen and long-lasting battery, I can u
 
 What my iPad sorely lacks, however, is the ability to do any modicum of coding (for my professional work as a user experience designer and software developer) and tinkering with the system itself (part and parcel for what it means to do computing IMHO). Despite all the processing power of its iPad lineup, Apple still refuses to endow it with the capabilities of an openly-accessible system like MacOS. Despite recently-announced updates that give iPadOS a more Mac-like windowing experience, it's not sufficient for coders and tinkerers like myself.
 
-But pairing an iPd with a Raspberry Pi, I could leverage each's strengths: all the benefits of iPad things while providing power and a great display power for my Pi, so that *it* can handle the Linuxy things.
+By pairing an iPad with a Raspberry Pi, I could leverage each's strengths: all the benefits of iPad things while providing power and a great display power for my Pi, so that *it* can handle the Linuxy things.
 
-But figuring out precicely how sent me down a rabbit hole of false starts, dead ends. And while it was surprisingly tricky to figure out how to actually pull it off, once I learned it is actually quite elegant and easy.
+But figuring out precicely *how* sent me down a rabbit hole of false starts, dead ends. And while it was surprisingly tricky to figure out how to actually pull it off, once I learned it is actually quite elegant and easy.
 
 So I'll share that with you. But first, let's look at…
 
