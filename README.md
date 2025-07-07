@@ -8,7 +8,7 @@ Pippy is a compact, text-first Linux computer with a deliciously tactile 47-key 
 
 ## July 2-5, 2025 - Setting up a direct connection between a Pi Zero W and an iPad
 
-I've been working on building my dream console I'll refer to as "Pippy." In concept, it's compact, yet sports a delicious-to-type-on ortholinear "planck" style keyboard, and is driven by a Raspberry Pi Zero W under the hood. What it lacks in power it makes up for in portability, user experience and, yes, my own personal aesthetic.
+I've been working on building my dream console I'll refer to as "Pippy." In concept, it's compact, yet sports a delicious-to-type-on ortholinear "planck" style keyboard, and is driven by a Raspberry Pi Zero W under the hood. What it lacks in power it makes up for in portability, user experience, and a chill, retro aesthetic.
 
 From the start, while the choice of keyboard was obvious to me, a suitable display and battery proved elusive. I simply couldn't find a screen with the brightness power efficiency and form factor I wanted.
 
