@@ -4,9 +4,9 @@ July 2-5, 2025
 
 I've been working on building my dream console I'll refer to as "Pippy." In concept, it's compact, yet sports a delicious-to-type-on ortholinear "planck" style keyboard, and is driven by a Raspberry Pi Zero W under the hood. What it lacks in power it makes up for in portability, user experience, and a chill, retro aesthetic.
 
-From the start, while the choice of keyboard was obvious to me, a suitable display and battery proved elusive. I simply couldn't find a screen with the brightness power efficiency and form factor I wanted.
+From the start, while the choice of keyboard was obvious to me, a suitable display and battery proved elusive. I simply couldn't find a screen with the brightness, power efficiency and form factor I wanted.
 
-But it occured to me that I already have a device with a display an battery that I would want to carry around alongside Pippy anyway. My iPad.
+But it occured to me that I already have a device with a display and battery that I would want to carry around alongside Pippy anyway. My iPad.
 
 My iPad Air not only has a nice, bright screen and long-lasting battery, I can use it to draw my web comic ([B-Lab](https://blabcomic.com)), watch YouTube, browse the web and  access my Apple ecosystem.
 
