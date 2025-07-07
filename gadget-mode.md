@@ -8,7 +8,7 @@ From the start, while the choice of keyboard was obvious to me, a suitable displ
 
 But it occured to me that I already have a device with a display and battery that I would want to carry around alongside Pippy anyway. My iPad.
 
-My iPad Air not only has a nice, bright screen and long-lasting battery, I can use it to draw my web comic ([B-Lab](https://blabcomic.com)), watch YouTube, browse the web and  access my Apple ecosystem.
+My iPad Air not only has a nice, bright screen and long-lasting battery, its form factor is ideal for drawing and content consumption.
 
 What my iPad sorely lacks, however, is the ability to do any modicum of coding (for my professional work as a user experience designer and software developer) and tinkering with the system itself (part and parcel for what it means to do computing IMHO). Despite all the processing power of its iPad lineup, Apple still refuses to endow it with the capabilities of an openly-accessible system like MacOS. Despite recently-announced updates that give iPadOS a more Mac-like windowing experience, it's not sufficient for coders and tinkerers like myself.
 
