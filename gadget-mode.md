@@ -1,4 +1,6 @@
+# Setting up a direct connection between a Pi Zero W and an iPad with "USB Gadget Mode"
 
+July 2-5, 2025 
 
 I've been working on building my dream console I'll refer to as "Pippy." In concept, it's compact, yet sports a delicious-to-type-on ortholinear "planck" style keyboard, and is driven by a Raspberry Pi Zero W under the hood. What it lacks in power it makes up for in portability, user experience, and a chill, retro aesthetic.
 
