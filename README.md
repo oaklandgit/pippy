@@ -1,7 +1,6 @@
-# Setting up a direct connection between a Pi Zero W and an iPad
+# Pippy Challenge #1: Setting up a direct connection between a Pi Zero W and an iPad
 
 ![IMG_5345](https://github.com/user-attachments/assets/cc9c53af-c0c0-4e9b-b7e8-bcbc421aea37)
-
 
 ## Background
 I've been working on building my dream console I'll refer to as "Pippy." In concept, it's compact, yet sports a delicious-to-type-on ortholinear "planck" style keyboard, and is driven by a Raspberry Pi Zero W under the hood. What it lacks in power it makes up for in portability, user experience and, yes, my own personal aesthetic.
