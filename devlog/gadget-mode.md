@@ -1,4 +1,4 @@
-# Setting up a direct connection between a Pi Zero W and an iPad with "USB Gadget Mode"
+# Setting up a direct connection between the Pippy and iPad
 
 July 2-5, 2025
 
