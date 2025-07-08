@@ -1,4 +1,4 @@
-# Designing the Pippy Keyboard
+# Designing the Pippy's Keyboard
 
 From the start, the Pippy was meant to be highly portable. But the one thing I would not compromise on is the keyboard.
 
