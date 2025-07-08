@@ -1,3 +1,5 @@
 # Dev Log
 
-[July 2-5, 2025 - Setting up a direct connection between a Pi Zero W and an iPad with "USB Gadget Mode"](gadget-mode.md)
+[July 2-5, 2025 - Setting up a direct connection between the Pippy and iPad](gadget-mode.md)
+
+[July 6-8, 2025 - Designing the Pippy's Keyboard](keyboard-notes.md)
