@@ -23,7 +23,7 @@ UPDATE:
 
 The Inland MK-47 Planck keyboard comes with RGB backlighting and effects. That "gamer" vibe isn't exactly the aesthetic I'm after, but I did want to take advantage of it as a keyboard backlight. And I added legends for the backlight brightness (and volume while I was at it) to the firmware (via Via 😉) and the YUZU keycaps.
 
-However, after I ordered the keycaps, two things occurred to me. For backlighting to work the key caps need to be: 1) shine through and 2) not white! (I have a Logitech MX keyboard with white shine-through caps. The white caps make it impossible to even see the legends when the backlight is on which, needless to say, defeats the purpose! I, however, strive to be more thoughtful in my design!
+However, after I ordered the keycaps, two things occurred to me. For backlighting to work the key caps need to be: 1) shine through and 2) not white! (I have a Logitech MX keyboard with white shine-through caps. The white caps make it impossible to even see the legends when the backlight is on which, needless to say, defeats the purpose! I, however, strive to be more thoughtful in my design!)
 
 So I did some more searching and found [FK Keycaps](https://fkcaps.com/) who has low profile keycaps with shinethrough and standard MX stems to fit my existing switches. Just the trick!
 
