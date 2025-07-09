@@ -18,8 +18,3 @@ And finally, I'm in the process of making custom keycaps that make it clear to t
 
 You can even order this keycap set yourself at:
 [My keycaps design at Yuzu.](https://yuzukeycaps.com/c/9839bc54-8ba7-46e9-92d4-aec02bd5d362)
-
-I haven't yet ordered these, however, because they don't seem to have a low profile option like the non-custom jobs I've got on the protype currently:
-
-![4EC71ADE-DFB6-48FE-817D-8B3F9965F57F_4_5005_c](https://github.com/user-attachments/assets/d91755f3-f853-4af8-bb81-056863ceaba9)
-
