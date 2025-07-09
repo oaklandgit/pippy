@@ -1,5 +1,7 @@
 # Bill of Materials (BoM)
 
+WORK IN PROGRESS
+
 This file documents all hardware, electronic, and software components used in the **Pippy** project.
 
 ---
