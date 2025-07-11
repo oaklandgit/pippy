@@ -6,8 +6,8 @@ Follow these steps if you have a Pippy without a pre-flashed SD card.
 
 On another computer, use Raspberry Pi Imager to prepare a bootable SD card for Pippy:
 
-1. Device: Raspberry Pi Zero 2 W
-2. OS: Raspberry Pi OS (64-bit)
+1. Device: Raspberry Pi Zero W or Raspberry Pi Zero 2 W
+2. OS: Raspberry Pi OS (32 bit for Pi Zero W or 64 bit for Pi Zero 2 W)
 3. Storage: Technically, 64 MB is enough, but we recommend a 4 GB or larger SD card to ensure room for packages and updates.
 
 Configure in Raspberry Pi Imager (click the gear icon before flashing):
