@@ -38,6 +38,8 @@ Basically, USB Gadget mode turns a USB connection into a direct ethernet connect
 
 (I'm capturing this both for readers who might be interested in using this setup in their projects, but also for future me who -- despite having spent the better portion of a week focused on this -- will certainly forgot how once the dust has settled and I've gone on to the next shiny problem.)
 
+> NOTE: This is tuned to work with Raspberry Pi OS "Bullseye." The newer "Bookworm" uses a different method which I haven't honed yet. For my purposes, I don't need the latest OS. But I'll work on refining these instructions for newer OSes.
+
 #### STEP 1: Make the physical connection
 
 Connect the Mac or iPad's USB C port to the Pi's Micro USB Data/Power port. IMPORTANT: Make sure to use the Data/Power USB port on the Pi and NOT the Power-only one. Also make sure your cable isn't garbage. **An additional Power source is not required!** The Pi will receive its power from the Gadget Mode connection.

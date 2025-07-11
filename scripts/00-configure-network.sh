@@ -4,7 +4,7 @@ set -e
 echo "Enabling USB Gadget Mode with dual interface support (usb0 + wlan0)..."
 
 # 1. Enable dwc2 overlay in /boot/config.txt
-CONFIG="/boot/firmware/config.txt"
+CONFIG="/boot/config.txt"
 if ! grep -q "^dtoverlay=dwc2" "$CONFIG"; then
   echo "Adding dtoverlay=dwc2 to $CONFIG"
   echo "dtoverlay=dwc2" | sudo tee -a "$CONFIG" > /dev/null
@@ -13,7 +13,7 @@ else
 fi
 
 # 2. Add dwc2 and g_ether to /boot/cmdline.txt
-CMDLINE="/boot/firmware/cmdline.txt"
+CMDLINE="/boot/cmdline.txt"
 if ! grep -q "modules-load=dwc2,g_ether" "$CMDLINE"; then
   echo "Patching $CMDLINE to load dwc2 and g_ether..."
   sudo sed -i 's/rootwait/rootwait modules-load=dwc2,g_ether/' "$CMDLINE"
