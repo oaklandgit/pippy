@@ -17,14 +17,14 @@ This file documents all hardware, electronic, and software components used in th
 | USB-A to Micro USB Cable (flexible)                                       | 1        | Connects hub to Pi Zero                          |
 | USB-A to USB-C Cable (flexible)                                           | 1        | Connects hub to keyboard                         |
 | [USB Type C Power Delivery](https://www.adafruit.com/product/5991)        | 1        | Optional auxiliary power input — use with care   |
-| 47-key Mechanical KB                                                      | 1        | Tactile custom keyboard with backlighting        |
+| 47-key Mechanical Keyboard                                                | 1        | Tactile custom keyboard with backlighting        |
 | Custom Keycaps                                                            | 47       | Low-profile, shine-through, MX-compatible caps   |
-| [NeoPixel](https://www.adafruit.com/product/1734)                         | 1        | RGB status LED                                   |
-| LED Indicator                                                             | 1        | Simple power indicator                           |
 
 ## Software
 
 - [Le Terminal](https://apps.apple.com/us/app/la-terminal-ssh-client/id1629902861) iPad app or similar
+- Raspberry Pi OS (Legacy, 32-bit "Bullseye")
+- Pippy (see [setup the guide](docs/setup-guide.md))
 
 ## Enclosure
 
