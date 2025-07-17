@@ -16,7 +16,6 @@ This file documents all hardware, electronic, and software components used in th
 | [USB Hub (Adafruit 4115)](https://www.adafruit.com/product/4115)          | 1        | Compact USB expansion hub                        |
 | USB-A to Micro USB Cable (flexible)                                       | 1        | Connects hub to Pi Zero                          |
 | USB-A to USB-C Cable (flexible)                                           | 1        | Connects hub to keyboard                         |
-| [USB Type C Power Delivery](https://www.adafruit.com/product/5991)        | 1        | Optional auxiliary power input — use with care   |
 | 47-key Mechanical Keyboard                                                | 1        | Tactile custom keyboard with backlighting        |
 | Custom Keycaps                                                            | 47       | Low-profile, shine-through, MX-compatible caps   |
 
