@@ -2,7 +2,7 @@
 
 WORK IN PROGRESS
 
-This file documents all hardware, electronic, and software components used in the **Pippy** project.
+This file documents all hardware, electronic, and software components used in the **Pippy** project. I'd call it a $150 project, depending on what materials you use for the enclosure.
 
 ---
 
