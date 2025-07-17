@@ -9,3 +9,5 @@ Pippy is a compact, text-first Linux computer with a deliciously tactile 47-key 
 > This project is evolving in the open. Expect bugs, half-built features, and changing plans. Feedback welcome.
 
 [Follow the dev log here](devlog/)
+
+Oh, and the tortoise is named "Shelby" or just "Shel" for short. Say hi.
