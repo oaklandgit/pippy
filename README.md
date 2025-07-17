@@ -10,4 +10,4 @@ Pippy is a compact, text-first Linux computer with a deliciously tactile 47-key 
 
 [Follow the dev log here](devlog/)
 
-Oh, and the tortoise is named "Shelby" or just "Shel" for short. Say hi.
+Oh, and the tortoise is named "Shelby" or just "Shel" for short. Fun fact: there are land _tortoises_ and sea _turtles_. Shelby is an "air tortoise."
