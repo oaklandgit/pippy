@@ -1,4 +1,4 @@
-# What's Pippy?
+<img width="2312" height="650" alt="image" src="https://github.com/user-attachments/assets/0334f4ee-813d-4175-a759-b4308aeaf35f" />
 
 ![IMG_5345](https://github.com/user-attachments/assets/cc9c53af-c0c0-4e9b-b7e8-bcbc421aea37)
 
