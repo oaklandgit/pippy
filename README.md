@@ -2,8 +2,9 @@
 
 Pippy is a compact, text-first Linux computer with a deliciously tactile 47-key mechanical keyboard. It connects to your iPad with a single USB cable, providing the Pippy with its power and display. Pippy returns the favor with a real shell, focused terminal tools, and a satisfying typing experience. It’s a seamless, symbiotic setup: minimalist, portable, and built for people who love computing at its most intentional.
 
-![800F8262-06DE-4EE1-9B76-57642DE41367_1_105_c](https://github.com/user-attachments/assets/3ce801b0-c288-4907-ac25-c0237b499218)
+![IMG_5345](https://github.com/user-attachments/assets/cc9c53af-c0c0-4e9b-b7e8-bcbc421aea37)
 
+![800F8262-06DE-4EE1-9B76-57642DE41367_1_105_c](https://github.com/user-attachments/assets/6793818e-577e-4e67-9407-60d506769d94)
 
 **Pippy is a work in progress!**
 
