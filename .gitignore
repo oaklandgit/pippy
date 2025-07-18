@@ -1,1 +1,5 @@
 .DS_Store
+
+# Don't track blender backups
+*.blend1
+*.blend2
