@@ -1,14 +1,8 @@
 # Bill of Materials (BoM)
 
-WORK IN PROGRESS
-
 This file documents all hardware, electronic, and software components used in the **Pippy** project. I'd call it a $150 project, depending on what materials you use for the enclosure.
 
----
-
 ## Hardware
-
-NOTE: iPad not included.
 
 | Item                                                                          | Quantity | Purpose                                          | Approx. $ |
 | ----------------------------------------------------------------------------- | -------- | ------------------------------------------------ |----------:|
@@ -19,6 +13,8 @@ NOTE: iPad not included.
 | USB-A to USB-C Cable (flexible)                                               | 1        | Connects hub to keyboard                         |     $9.00 |
 | 47-key Mechanical Keyboard (e.g. [MicroCenter](https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard))                           | 1        | Tactile custom keyboard with backlighting        |    $40.00 |
 | Custom Keycaps (e.g. [FKCaps.com](https://fkcaps.com/custom/))                | 47       | Low-profile, shine-through, MX-compatible caps   |    $60.00 |
+
+iPad not included.
 
 ## Software
 
