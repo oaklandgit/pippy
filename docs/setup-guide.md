@@ -8,8 +8,11 @@ On another computer, use Raspberry Pi Imager to prepare a bootable SD card for P
 
 1. Device: Raspberry Pi Zero W or Raspberry Pi Zero 2 W
 2. OS: Raspberry Pi OS (Legacy, 32-bit)
-   > NOTE: The above OS version (aka "Bullseye") is an older version of the OS. Due to differences in how they handle networking, newer versions (ie "Bookworm") do not yet work with Pippy.
-3. Storage: 64 GB or above to be comfortable.
+
+    > The above OS version (aka "Bullseye") is an older version of the OS.
+    > Due to differences in how they handle networking, newer versions (ie "Bookworm") do not yet work with Pippy.
+
+4. Storage: 64 GB or above to be comfortable.
 
 Configure in Raspberry Pi Imager (click the gear icon before flashing):
 
@@ -19,8 +22,8 @@ Configure in Raspberry Pi Imager (click the gear icon before flashing):
 4. Set a password: anything you like
 5. Configure Wi-Fi: enter your Wi-Fi SSID and password
 
-NOTE: Once Pippy is fully configured, you won’t need Wi-Fi to use it with your iPad — the iPad connects over USB.
-However, during initial setup, Wi-Fi is required so Pippy can download and install the necessary software.
+    > Once Pippy is fully configured, you won’t need Wi-Fi to use it with your iPad — the iPad connects over USB.
+    > However, during initial setup, Wi-Fi is required so Pippy can download and install the necessary software.
 
 ## Boot Your Pippy
 
@@ -28,7 +31,7 @@ However, during initial setup, Wi-Fi is required so Pippy can download and insta
 2. Connect Pippy to your iPad using a USB-C to USB-C cable. This provides power and display, but network-over-USB will not work until Pippy is fully configured.
 3. Wait ~30 seconds. You should see the red power LED light up.
 
-#### NOTE: You’ll configure USB networking later during the Pippy software setup process.
+You’ll configure USB networking later during the Pippy software setup process.
 
 ## Connect from iPad
 
