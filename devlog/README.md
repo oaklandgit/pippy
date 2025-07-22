@@ -6,4 +6,4 @@
 
 [July 9, 2025 - Choosing an iPad Terminal App](ipad-terminal-app.md)
 
-[July 21, 2025 - Aesthetics](aesthetics.md)
+[July 21, 2025 - Designing the Aesthetics](aesthetics.md)
