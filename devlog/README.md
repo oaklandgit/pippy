@@ -5,3 +5,5 @@
 [July 6-8, 2025 - Designing the Pippy's Keyboard](keyboard-notes.md)
 
 [July 9, 2025 - Choosing an iPad Terminal App](ipad-terminal-app.md)
+
+[July 21, 2025 - Aesthetics](aesthetics.md)
