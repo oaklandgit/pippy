@@ -8,6 +8,5 @@ Pippy is a compact, text-first Linux computer with a deliciously tactile 47-key 
 
 > [!NOTE]
 > The mascot is named "Shelby" or just "Shel" for short. Fun fact: there are _tortoises_ (land) and _turtles_ (water). Shelby is a _tortle_ (air).
-
-![IMG_5345](https://github.com/user-attachments/assets/cc9c53af-c0c0-4e9b-b7e8-bcbc421aea37)
-
+> 
+![85CDC034-619D-4F67-B4E2-E74E878EFC01_1_102_o](https://github.com/user-attachments/assets/d7b620db-e4fd-46ab-a5c6-f3a6468f4d6c)
