@@ -1,5 +1,7 @@
 # Designing the Pippy's Keyboard
 
+![305FA7C0-1CFB-466D-AB91-7F12BD7318A7_1_105_c](https://github.com/user-attachments/assets/3a0ffe9b-2715-4a8a-85bb-ca073b342f7c)
+
 From the start, the Pippy was meant to be highly portable. But the one thing I would not compromise on is the keyboard.
 
 The biggest downside to comparable devices (Clockwork's [uConsole](https://www.clockworkpi.com/home-uconsole) and [DevTerm](https://www.clockworkpi.com/home-uconsole), are that the keyboards are more geared to thumb typing than traditional touch typing.
