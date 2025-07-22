@@ -1,4 +1,5 @@
-<img width="556" height="169" alt="CleanShot 2025-07-17 at 13 05 22" src="https://github.com/user-attachments/assets/dc694c96-557f-4ca4-94a7-52cd9ba75ee6" />
+
+<img width="620" alt="pippy-logo" src="https://github.com/user-attachments/assets/3318e062-b279-4d84-97b3-4f6de2b6ada8" />
 
 > [!IMPORTANT] 
 > **Pippy is a work in progress, evolving in the open.** Expect bugs, half-built features, and changing plans. \
