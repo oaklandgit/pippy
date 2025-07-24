@@ -15,3 +15,7 @@ echo "Chromium removed."
 echo "Installing Midori..."
 sudo apt install -y midori
 echo "Midori installed."
+
+echo "Installing Neovim..."
+sudo apt install -y neovim
+echo "Neovim installed."

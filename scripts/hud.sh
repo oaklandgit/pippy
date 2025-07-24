@@ -34,12 +34,7 @@ fi
 
 PUBLIC_IP=$(curl -s https://ifconfig.me)
 
-echo "${USER}@${DEVICE}"
-echo "==========================="
-echo "${DATE}, ${TIME}"
-echo "Uptime: $UPTIME"
-echo "---------------------------"
-echo "Local IP: $LOCAL_IP"
-echo "Public IP: $PUBLIC_IP"
-echo "Wifi Strength: $PERCENT%"
-echo "==========================="
+# echo "${USER}@${DEVICE}"
+echo " $PERCENT%"
+echo "󰌗 $LOCAL_IP"
+echo " $PUBLIC_IP"

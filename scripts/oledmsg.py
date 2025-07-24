@@ -2,8 +2,13 @@
 
 import sys
 import time
+import os
 import Adafruit_SSD1306
 from PIL import Image, ImageDraw, ImageFont
+
+font_size = 17
+font_path = os.path.expanduser("~/pippy/assets/3270NerdFontMono-Regular.ttf")
+font = ImageFont.truetype(font_path, font_size)
 
 # --- Argument Parsing ---
 args = sys.argv[1:]
@@ -40,8 +45,7 @@ disp.display()
 width, height = disp.width, disp.height
 image = Image.new('1', (width, height))
 draw = ImageDraw.Draw(image)
-font = ImageFont.load_default()
-line_height = 10
+line_height = font_size 
 max_lines = height // line_height
 lines = lines[:max_lines]
 
