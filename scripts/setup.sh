@@ -7,5 +7,5 @@ echo "Setting up Pippy!"
 ./01-setup-apps.sh
 ./02-configure-oled.sh
 ./03-configure-sessions.sh
-
+./04-configure-neopixels.sh
 echo "Done!"
