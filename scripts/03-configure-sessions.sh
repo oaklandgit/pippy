@@ -14,6 +14,9 @@ echo "# Send the HUD (wifi strength, local and public IP) to the attached OLED" 
 echo "~/pippy/scripts/hud.sh | ~/pippy/scripts/oledmsg.py &" >> "$PROFILE"
 echo "" >> "$PROFILE"
 
+echo "# Light up a green neopixel behind Shelby" >> "$PROFILE"
+echo "sudo ~/pippy/scripts/neopixel-set.py 5 0 70 0" >> "$PROFILE"
+
 echo "# Fix an issue with the Ghostty terminal that was making it suck" >> "$PROFILE"
 echo "export TERM=xterm" >> "$PROFILE"
 
