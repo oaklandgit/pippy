@@ -6,7 +6,8 @@ import os
 import Adafruit_SSD1306
 from PIL import Image, ImageDraw, ImageFont
 
-font_size = 17
+font_size = 16 
+line_height = 16
 font_path = os.path.expanduser("~/pippy/assets/3270NerdFontMono-Regular.ttf")
 font = ImageFont.truetype(font_path, font_size)
 
@@ -37,15 +38,16 @@ if not sys.stdin.isatty():
     lines = [line.strip() for line in sys.stdin if line.strip()]
 
 # --- OLED Setup ---
-disp = Adafruit_SSD1306.SSD1306_128_64(rst=None)
+disp = Adafruit_SSD1306.SSD1306_128_32(rst=None)
 disp.begin()
 disp.clear()
 disp.display()
 
 width, height = disp.width, disp.height
+
 image = Image.new('1', (width, height))
 draw = ImageDraw.Draw(image)
-line_height = font_size 
+#line_height = font_size 
 max_lines = height // line_height
 lines = lines[:max_lines]
 
